@@ -1,0 +1,88 @@
+
+body{background-color:black;}
+h1{font-family: halyard-display, sans-serif;
+    font-weight: 400;
+    font-style: normal; color:red;font-size:30px;}
+.container{
+margin:0;
+overflow: hidden;
+
+}
+
+#slider{display:flex;margin-top:100px;
+    padding-bottom:30px;
+    position: relative;
+transition:ease 2s;margin-left:0;}
+
+
+
+#movie{height:150px;width:285px;}
+
+
+
+
+
+.img{height:150px;width:285px;
+    transition: ease 0.1s;
+    cursor: pointer;
+}
+
+#movie:hover{ flex-grow:2; transform: scale(2);}
+
+
+
+
+.title{font-size:20px;
+    margin-top:-200px;
+    margin-left:40px;
+    color:white;
+    font-family: halyard-display, sans-serif;
+    font-weight: 400;
+    font-style: normal; }
+
+.percent{font-size:20px;
+    margin-top:-20px;
+    margin-left:40px;
+    color:white;
+    font-family: halyard-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+
+#button-left{position:absolute;
+    width:50px;
+    height:30px;
+    left:0;
+    margin-top:-130px;
+    background-color:white;
+    text-align: center;
+    border-radius: 10px;
+    padding-top:5px;
+    }
+  
+
+#button-right{position:absolute;
+    width:50px;
+    height:30px;
+    right:0; 
+    margin-top:-130px;
+    background-color:white;
+    text-align: center;
+border-radius: 10px;
+padding-top:5px;}
+
+
+
+
+
+#button-left:hover{cursor: pointer;}
+#button-right:hover{cursor: pointer;}
+
+
+#detail{height:500px;width:900px;visibility: hidden;position:absolute;}
+
+
+
+
+
+
+.detimg{height:100%;width:100%;}
